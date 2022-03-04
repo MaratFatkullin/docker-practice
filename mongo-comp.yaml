@@ -6,7 +6,7 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=admin
       - MONGO_INITDB_ROOT_PASSWORD=marat
     volumes: 
-      - mongo-data:/data/db
+      - mongo-data:/data/ca
       - mongo-data:/data/configdb
 
   mongo-express:
